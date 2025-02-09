@@ -1,0 +1,22 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = tab
+
+[*.txt]
+end_of_line = crlf
+
+[*.{json,yml,ts,tsx,js,jsx,css,scss}]
+indent_style = space
+indent_size = 2
+
+[{.babelrc,.bowerrc,.browserslistrc,.postcssrc}]
+indent_style = space
+indent_size = 2
+
+[wp-config-sample.php]
+end_of_line = crlf
