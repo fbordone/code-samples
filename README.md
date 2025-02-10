@@ -60,9 +60,6 @@ Contains the front-end styles for the block.
 - **LibCal Overview:**
   LibCal is an event management platform that allows libraries to manage and display event data. This integration demonstrates how event data can be fetched and displayed dynamically in WordPress.
 
-- **Stubbed API Responses:**
-  For demo purposes, the LibCal API integration includes stubbed responses to simulate event data without requiring full API access or proprietary credentials.
-
 - **Collaboration Note:**
   Although this sample was extracted from a larger collaborative project, the code in this repository was primarily developed and maintained by me, with contributions from a dedicated frontend engineer on the styling aspects.
 
