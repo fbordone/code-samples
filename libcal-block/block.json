@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cpl/libcal-compact",
+  "title": "Libcal (Compact)",
+  "category": "design",
+  "icon": "calendar",
+  "description": "Dynamically displays upcoming events from Libcal in a compact format.",
+  "attributes": {
+    "colorScheme": {
+      "type": "string",
+      "default": "dark"
+    },
+    "eventDaysAhead": {
+      "type": "number",
+      "default": 30
+    },
+    "numberOfEvents": {
+      "type": "number",
+      "default": 4,
+      "maximum": 8
+    },
+    "eventLocations": {
+      "type": "array",
+      "default": []
+    },
+    "eventCategories": {
+      "type": "array",
+      "default": []
+    },
+    "eventTags": {
+      "type": "array",
+      "default": []
+    },
+    "showDescription": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "supports": {
+    "html": false
+  },
+  "textdomain": "cpl",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./editor.css",
+  "style": "file:./style.css",
+  "render": "file:./markup.php"
+}
