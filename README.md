@@ -69,7 +69,7 @@ Contains the front-end styles for the block.
 ## Screen Recordings
 
 ### Block Editor Experience
-[Watch via Google Drive](https://drive.google.com/file/d/1u0YcXA6BczZDy-wzB9ll10zBBQT3Y2I8/view?usp=drive_link)  
+[Watch via Google Drive](https://drive.google.com/file/d/1u0YcXA6BczZDy-wzB9ll10zBBQT3Y2I8/view?usp=drive_link)
 
 ### Frontend Experience
 [Watch via Google Drive](https://drive.google.com/file/d/1i5fg5qKQYWWJBusyPsgQN2B-ADRkp3mx/view?usp=drive_link)
