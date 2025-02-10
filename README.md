@@ -2,9 +2,11 @@
 
 ## Overview
 
-This repository is a code sample demonstrating a custom Gutenberg block that integrates with [LibCal](https://www.springshare.com/libcal/) – an event management and scheduling platform widely used by libraries – to dynamically display upcoming events in a compact format. The sample highlights modern WordPress development practices, including server-side rendering, API integration, and modular code organization.
+This repository is a code sample demonstrating a custom Gutenberg block that integrates with [LibCal](https://www.springshare.com/libcal/) – an event management and scheduling platform widely used by libraries - to dynamically display upcoming events in a compact format.
 
-## Purpose of the Code Example
+The sample highlights modern WordPress development practices, including server-side rendering, API integration, and modular code organization.
+
+## Purpose
 
 The code sample focuses on the following aspects:
 
@@ -17,7 +19,7 @@ The code sample focuses on the following aspects:
 - **Modern Web Development:**
   Demonstration of contemporary JavaScript (React) and PHP practices, including proper type declarations, error handling, and inline documentation.
 
-## My Contributions & Responsibilities
+## My Contributions
 
 - **Architecture & Code Organization:**
    Spearheaded the overall functional architecture, ensuring a clear separation of concerns between the block’s editor interface, server-side rendering, and API integration.
@@ -47,25 +49,11 @@ For a focused review, please take a look at the following files:
 - **`libcal-block/markup.php`**
   Provides the server-side rendering logic for the block, including integration with the LibCal API.
 
+- **`libcal-block/style.css`**
+Contains the front-end styles for the block.
+
 - **`includes/LibCal.php`**
   Demonstrates the API integration, including token fetching, caching, and event data formatting.
-
-- **`libcal-block/style.css`**
-  Contains the front-end styles for the block.
-
-## Core Technologies Demonstrated
-
-- **WordPress Gutenberg Blocks:**
-  Custom block creation using metadata, React-based editing interfaces, and server-side rendering.
-
-- **PHP:**
-  A robust API integration class with proper error handling, caching, and comprehensive inline documentation.
-
-- **JavaScript (React):**
-  Modern JavaScript techniques and React hooks/components to build the editor interface.
-
-- **Web Development Best Practices:**
-  Clean code organization, modular design, and thorough documentation to facilitate readability and maintainability.
 
 ## Additional Information
 
@@ -78,7 +66,11 @@ For a focused review, please take a look at the following files:
 - **Collaboration Note:**
   Although this sample was extracted from a larger collaborative project, the code in this repository was primarily developed and maintained by me, with contributions from a dedicated frontend engineer on the styling aspects.
 
-## Screen Recording
+## Screen Recordings
 
-*Coming Soon:*
-A screen recording demonstrating the block’s functionality is being prepared. Once available, a link or embedded video will be provided here.
+### Block Editor Experience
+[Watch via Google Drive](https://drive.google.com/file/d/1u0YcXA6BczZDy-wzB9ll10zBBQT3Y2I8/view?usp=drive_link)  
+
+### Frontend Experience
+[Watch via Google Drive](https://drive.google.com/file/d/1i5fg5qKQYWWJBusyPsgQN2B-ADRkp3mx/view?usp=drive_link)
+
