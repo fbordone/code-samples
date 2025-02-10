@@ -5,9 +5,6 @@
  * For demo purposes, this file outputs a simplified event card.
  *
  * @package Cpl
- *
- * @var array    $attributes Block attributes.
- * @var WP_Block $block      Block instance.
  */
 
 // Set defaults.
